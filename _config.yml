@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://wangjichao.cc
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: 进化论
+subtitle: "物竞天择，适者生存！"
+description: "王继超的个人博客"
+keywords: 王继超, Jichao Wang, jichao, evolution, 进化论
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Jichao Wang
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: wjcgithub
+location: Beijing, China
+email: wjc163@sina.cn
 
 # ---------------- #
 #    Navigation    #
@@ -39,12 +39,12 @@ navs:
 #     label: 归档
 
   -
-    href: /wiki/
-    label: 维基
+    # href: /wiki/
+    # label: 维基
 
   -
-    href: /links/
-    label: 链接
+    # href: /links/
+    # label: 链接
 
   -
     href: /about/
