@@ -4,7 +4,7 @@
 baseurl:
 url: https://wangjichao.cc
 date_format: "ordinal"
-title: 进化论
+title: Evolution
 subtitle: "物竞天择，适者生存！"
 description: "王继超的个人博客"
 keywords: 王继超, Jichao Wang, jichao, evolution, 进化论
@@ -61,6 +61,8 @@ subscribe_rss: /feed.xml
 markdown: kramdown
 kramdown:
     input: GFM
+    #math_engine: mathjax
+    #syntax_highlighter: rouge
 highlighter: rouge
 paginate: 10
 lsi: false
@@ -81,7 +83,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: wjcgithub/wjcgithub.github.io
 
 # ---------------- #
 #      Comments    #
@@ -98,14 +100,14 @@ gitment:
     owner: mzlogin
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 1b5c15eb18eded67cb00
+        client_secret: 897cbb5becdfccf9f302cd01e24d30451fb2a203
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: mzlogin
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 1b5c15eb18eded67cb00
+    clientSecret: 897cbb5becdfccf9f302cd01e24d30451fb2a203
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
